@@ -3,9 +3,9 @@ function App() {
     <>
      <h1>Links</h1>
      <br />
-     <a href="LINK AQUI">COLOQUE O LINK</a>
+     <a href="../pages/configInterface.html">Configurações</a>
     </>
   )
-};
+}
 
 export default App
