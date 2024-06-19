@@ -1,0 +1,17 @@
+.header {
+    background-color: #005A8D;
+    width: 100vw;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    
+}
+
+.titulo {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
