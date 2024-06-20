@@ -3,10 +3,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-#root {
+main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100vh;
 }
 
 .Titulo {
@@ -19,11 +20,21 @@ body {
     flex-direction: row;
 }
 
+.Usuario,
+.Interface,
+.Acessibilidade {
+    background-color: #005A8D;
+}
+
 footer {
     display: flex;
+    justify-content: center ;
+    background-color: #ffffff;
+    height: 5%;
 }
 
 .Icones {
     display: flex;
     flex-direction: row;
+    gap: 4em;
 }

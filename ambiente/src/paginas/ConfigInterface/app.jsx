@@ -12,13 +12,15 @@ const header = [
 export default function AppPaginaConfiguracoes() {
     return (
       <>
-        {
-            header.map((header) => {
-                return <Header titulo={header.titulo} />
-            })
-        }
-        <Botoes />
-        <Footer />
+        <main>
+          {
+              header.map((header) => {
+                  return <Header titulo={header.titulo} />
+              })
+          }
+          <Botoes />
+          <Footer />
+        </main>
       </>
     )
   }
