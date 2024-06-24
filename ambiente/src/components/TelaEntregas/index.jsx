@@ -1,5 +1,6 @@
 import Header from "../Header/index"
 import Footer from "../Footer/index"
+import Pedido from "../Pedido/index"
 
 import style from './style.module.css'
 
@@ -8,11 +9,24 @@ export default function TelaEntregas() {
         <div className={style.conteiner}>
             <div className={style.conteudoPrincipal}>
                 <Header />
-                <Footer />
 
                 <div className={style.totalPedidos}>
                     <p className={style.totalPedidosTitulo}>Total de Pedidos</p>
                 </div>
+
+                <div className={style.pedidos}>
+                    <Pedido />
+                    <Pedido />
+                    <Pedido />
+                    <Pedido />
+                    <Pedido />
+                    <Pedido />
+                    <Pedido />
+                    <Pedido />
+                </div>
+
+
+                <Footer />
             </div>
         </div>
     )

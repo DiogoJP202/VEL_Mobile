@@ -31,11 +31,10 @@ body {
 }
 
 .totalPedidos {
-    background-color: blueviolet;
     border-radius: 10px;
     background: #BDE4FA;
     padding: 6px 22px;
-    margin: 80px 0px;
+    margin: 80px 0px 20px 0px;
   
 }
 
@@ -47,3 +46,6 @@ body {
     line-height: normal;
 }
 
+.pedidos{
+    margin-bottom: 90px;
+}

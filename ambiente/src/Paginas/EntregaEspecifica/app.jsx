@@ -1,9 +1,9 @@
-import TelaCoordenador from "../../components/TelaCoordenador/TelaCordenador"
+import TelaEntregaEspecifica from "../../components/TelaEntregaEspecifica/index"
 
 function App() {
   return (
     <>
-      <TelaCoordenador />
+      <TelaEntregaEspecifica />
     </>
   )
 }
