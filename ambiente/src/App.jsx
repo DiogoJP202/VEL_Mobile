@@ -3,6 +3,8 @@ function App() {
     <>
      <h1>Links</h1>
      <br />
+     <a href="../pages/configInterface.html">Configurações</a>
+     <br/>
      <a href="LINK AQUI">COLOQUE O LINK</a>
      <br/>
      <a href="../pages/entregas.html">Tela Entregas</a>
@@ -10,6 +12,6 @@ function App() {
      <a href="../pages/entregaEspecifica.html">Tela Entrega Específica</a>
     </>
   )
-};
+}
 
 export default App
