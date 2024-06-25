@@ -3,6 +3,7 @@ import GlobalStyle from "./styles/global";
 import Header from "../../components/HeaderControle";
 import Resume from "../../components/Resume";
 import Form from "../../components/Form";
+import Footer from "../../components/Footer";
 
 const App = () => {
   const data = localStorage.getItem("transactions");
@@ -49,6 +50,7 @@ const App = () => {
         transactionsList={transactionsList}
         setTransactionsList={setTransactionsList}
       />
+      <Footer />
       <GlobalStyle />
     </>
   );
