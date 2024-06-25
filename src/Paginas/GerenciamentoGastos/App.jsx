@@ -4,6 +4,7 @@ import Header from "../../components/HeaderControle";
 import Resume from "../../components/Resume";
 import Form from "../../components/Form";
 import Footer from "../../components/Footer";
+import "./styles/margemTabela.css";
 
 const App = () => {
   const data = localStorage.getItem("transactions");

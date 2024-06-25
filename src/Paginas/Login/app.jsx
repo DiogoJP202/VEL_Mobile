@@ -9,7 +9,7 @@ export default function Login() {
     const email = document.querySelector("#ILogin");
     const senha = document.querySelector("#ISenha");
 
-    
+    window.location.href = "pages/entregas.html";
   }
 
   return (

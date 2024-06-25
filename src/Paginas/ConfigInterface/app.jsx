@@ -1,8 +1,7 @@
 import "../../assets/styles/ConfigInterface.css";
 import Header from "../../components/Header/Header.jsx";
 import Botoes from "../../components/Botoes/Botoes.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
-import { GoBell } from "react-icons/go";
+import Footer from "../../components/Footer/index.jsx";import { GoBell } from "react-icons/go";
 import { LuLogOut, LuMoon } from "react-icons/lu";
 import { IoDocumentTextOutline, IoLanguage } from "react-icons/io5";
 import { SlLock } from "react-icons/sl";

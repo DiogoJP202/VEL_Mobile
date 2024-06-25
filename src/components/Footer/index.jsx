@@ -6,9 +6,9 @@ import iconePerfil from '../../assets/imagens/icon/perfil_icone.svg'
 export default function Footer() {
     return (
         <footer className={style.footer}>
-                <img className={style.icone} src={iconeFin} alt="Icone de Financeiro" />
-                <img className={style.icone} src={iconeMoto} alt="Icone de Moto" />
-                <img className={style.icone} src={iconePerfil} alt="Icone de Perfil" />
+                <a href="/pages/gerenciamentoGastos.html"><img className={style.icone} src={iconeFin} alt="Icone de Financeiro" /></a>
+                <a href="/pages/entregas.html"><img className={style.icone} src={iconeMoto} alt="Icone de Moto" /></a>
+                <a href="/pages/configUsuario.html"><img className={style.icone} src={iconePerfil} alt="Icone de Perfil" /></a>
         </footer>
     )
 
