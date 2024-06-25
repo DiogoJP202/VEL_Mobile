@@ -8,9 +8,9 @@ export default function Footer(){
         <>
             <footer>
                 <div className="Icones">
-                    <img src={balao} />
-                    <img src={moto} />
-                    <img src={pessoa} />
+                    <img src={balao} className="Icone-balao"/>
+                    <img src={moto} className="Icone-moto"/>
+                    <img src={pessoa} className="Icone-pessoa"/>
                 </div>
             </footer>
         </>
