@@ -10,6 +10,8 @@ function App() {
      <a href="../pages/entregas.html">Tela Entregas</a>
      <br/>
      <a href="../pages/entregaEspecifica.html">Tela Entrega Específica</a>
+     <br/>
+     <a href="../pages/gerenciamentoGastos.html">Gerenciamento de Gastos</a>
     </>
   )
 }
