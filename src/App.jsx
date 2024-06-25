@@ -3,15 +3,15 @@ function App() {
     <>
      <h1>Links</h1>
      <br />
-     <a href="../pages/configInterface.html">Configurações</a>
+     <a href="/pages/configInterface.html">Configurações</a>
      <br/>
-     <a href="LINK AQUI">COLOQUE O LINK</a>
+     <a href="/pages/entregas.html">Tela Entregas</a>
      <br/>
-     <a href="../pages/entregas.html">Tela Entregas</a>
-     <br/>
-     <a href="../pages/entregaEspecifica.html">Tela Entrega Específica</a>
+     <a href="/pages/entregaEspecifica.html">Tela Entrega Específica</a>
      <br/>
      <a href="../pages/gerenciamentoGastos.html">Gerenciamento de Gastos</a>
+     <br />
+     <a href="../pages/paginaLogin.html">Login</a>
     </>
   )
 }

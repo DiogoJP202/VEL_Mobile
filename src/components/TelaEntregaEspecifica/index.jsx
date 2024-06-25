@@ -1,7 +1,6 @@
 import Header from "../Header/index"
 import Footer from "../Footer/index"
 import CardEndereco from "../CardEndereco/index"
-
 import style from './style.module.css'
 
 export default function TelaEntregaEspecifica() {
@@ -10,7 +9,6 @@ export default function TelaEntregaEspecifica() {
             <div className={style.conteudoPrincipal}>
                 <Header />
                 <CardEndereco />
-        
                 <Footer />
             </div>
         </div>
