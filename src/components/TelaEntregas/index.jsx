@@ -15,7 +15,9 @@ export default function TelaEntregas() {
                 </div>
 
                 <div className={style.pedidos}>
-                    <Pedido />
+                    <a href="/pages/entregaEspecifica.html" style={{textDecoration: "none"}}>
+                        <Pedido />
+                    </a>
                     <Pedido />
                     <Pedido />
                     <Pedido />
