@@ -10,9 +10,10 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "VEL",
-        short_name: "VEL",
-        description: "VEL MOBILE PLATAFORM",
+        name: 'VEL para entregadores',
+        short_name: 'VEL',
+        description: 'Aplicação VEL para entregadores.',
+        theme_color: '#ffffff',
         icons: [
           { src: "pwa-192-192.png", sizes: "192x192", type: "image/png" },
           { src: "pwa-512-512.png", sizes: "512x512", type: "image/png" },
