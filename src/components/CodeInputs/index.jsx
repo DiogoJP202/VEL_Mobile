@@ -24,7 +24,7 @@ const CodeInput = () => {
 
   return (
     <div>
-      <div>
+      <div style={{textAlign: "center"}}>
           {code.map((value, index) => (
             <input
               key={index}

@@ -1,19 +1,31 @@
-import "../../assets/styles/ConfigInterface.css";
 import Header from "../../components/Header/Header.jsx";
 import Botoes from "../../components/Botoes/Botoes.jsx";
 import Footer from "../../components/Footer/index.jsx";
 import { LuPencil } from "react-icons/lu";
-
-const header = [
-  {
-    titulo: 'Configurações',
-    id: 1
-  }
-];
+import GlobalStyle from "../../components/globalStyles";
+import { Container } from "../ConfigInterfac/configuration.ts";
+import { useNavigate } from "react-router-dom";
 
 export default function AppPaginaConfiguracoes() {
+
+  const navigate = useNavigate();
+
+  const header = [
+    {
+      titulo: "Configurações",
+      id: 1,
+    },
+  ];
+  
+  const style = {
+    backgroundColor: "#ecf3fb",
+    fontFamily: "Roboto",
+    margin: "0",
+  };
+
   return (
-    <>
+    <Container style={style}>
+      <GlobalStyle />
       <main>
         {header.map((item) => (
           <Header key={item.id} titulo={item.titulo} />
@@ -63,6 +75,6 @@ export default function AppPaginaConfiguracoes() {
         </div>
         <Footer />
       </main>
-    </>
+    </Container>
   );
 }

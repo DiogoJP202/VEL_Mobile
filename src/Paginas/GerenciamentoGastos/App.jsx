@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import GlobalStyle from "./styles/global";
+import GlobalStyle from "./global";
 import Header from "../../components/HeaderControle";
 import Resume from "../../components/Resume";
 import Form from "../../components/Form";
 import Footer from "../../components/Footer";
-import "./styles/margemTabela.css";
+import { Container } from "./table.ts";
 
 const App = () => {
   const data = localStorage.getItem("transactions");
@@ -43,7 +43,7 @@ const App = () => {
   };
 
   return (
-    <>
+    <Container>
       <Header />
       <Resume income={income} expense={expense} total={total} />
       <Form
@@ -53,7 +53,7 @@ const App = () => {
       />
       <Footer />
       <GlobalStyle />
-    </>
+    </Container>
   );
 };
 
